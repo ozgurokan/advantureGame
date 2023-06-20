@@ -8,10 +8,10 @@ public class Game {
     public void start() {
         System.out.println("Macera Oyununa Hoşgeldiniz ! ");
         System.out.print("İsminizi giriniz: ");
-        // String playerName = input.nextLine();
+        String playerName = input.nextLine();
 
-        Player player = new Player("okan");
-        //System.out.println(player.getName() + " Hoşgeldin, Hazır ol Macera Başlıyor...");
+        Player player = new Player(playerName);
+        System.out.println(player.getName() + " Hoşgeldin, Hazır ol Macera Başlıyor...");
         System.out.println("Birazdan yaşamaya başlayacaklarının hepsi gerçek...");
 
         System.out.println("Bu maceraya hangi karakterle atılacaksın?");
